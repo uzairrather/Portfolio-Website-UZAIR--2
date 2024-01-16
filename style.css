@@ -320,3 +320,28 @@ body{
     text-decoration: underline;
 }
 
+@media (max-width: 500px) {
+    .container {
+        width: 100%;
+    }
+
+    .container .content {
+
+        width: 80%;
+        height: 100%;
+        padding: 80px 40px;
+    }
+
+    .logreg-box {
+        display: none;
+    }
+     
+    .header{
+        flex-direction: column;
+    }
+
+    .navbar a{
+        margin-right: 20px;
+    }
+}
+
